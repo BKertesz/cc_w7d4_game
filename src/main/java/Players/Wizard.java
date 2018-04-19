@@ -4,7 +4,7 @@ import Items.Spell;
 
 public class Wizard extends Magician {
 
-    public Wizard(Spell spell) {
-        super(spell);
+    public Wizard(int healthPoint, Spell spell) {
+        super(healthPoint, spell);
     }
 }

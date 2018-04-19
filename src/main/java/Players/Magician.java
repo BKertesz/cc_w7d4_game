@@ -2,11 +2,12 @@ package Players;
 
 import Items.Spell;
 
-public abstract class Magician {
+public abstract class Magician extends Player{
 
     private Spell spell;
 
-    public Magician(Spell spell) {
+    public Magician(int healthPoint, Spell spell) {
+        super(healthPoint);
         this.spell = spell;
     }
 
@@ -16,5 +17,9 @@ public abstract class Magician {
 
     public void changeSpell(Spell spell){
         this.spell = spell;
+    }
+
+    public Spell getSpell() {
+        return spell;
     }
 }

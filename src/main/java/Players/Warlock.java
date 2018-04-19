@@ -4,7 +4,7 @@ import Items.Spell;
 
 public class Warlock extends Magician {
 
-    public Warlock(Spell spell) {
-        super(spell);
+    public Warlock(int healthPoint, Spell spell) {
+        super(healthPoint, spell);
     }
 }
