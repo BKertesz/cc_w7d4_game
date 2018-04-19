@@ -30,4 +30,15 @@ public class BarbarianTest {
         barbarian1.changeWeapon(weapon2);
         assertEquals("Sword", barbarian1.getWeapon().getName());
     }
+
+    @Test
+    public void swagBagStartAtZero() {
+        assertEquals(0,barbarian1.getSwagBagAmount());
+    }
+
+    @Test
+    public void canAddToSwagBag() {
+        barbarian1.addSwag(100);
+        assertEquals(100,barbarian1.getSwagBagAmount());
+    }
 }
