@@ -15,4 +15,8 @@ public abstract class Item {
     public void execute(Player player){
         player.changeHealth(impact);
     }
+
+    public String getName() {
+        return name;
+    }
 }

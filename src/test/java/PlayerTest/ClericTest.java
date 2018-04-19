@@ -27,4 +27,11 @@ public class ClericTest {
         cleric.healPlayer(cleric);
         assertEquals(55, cleric.getHealthPoints());
     }
+
+
+    @Test
+    public void canChangeHealingTool(){
+        cleric.changeHealingTool(healingTool2);
+        assertEquals("potion", cleric.getHealingTool().getName());
+    }
 }
