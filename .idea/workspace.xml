@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd87efa0-d0fa-4aff-af0f-afc8e66d21df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Creatures/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Interfaces/IDamageable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreatureTests/CreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Items/HealingTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Items/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Items/Spell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Items/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Barbarian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Cleric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Dwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Knight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Magician.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Warlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Warrior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Wizard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlayerTest/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PlayerTest/BarbarianTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlayerTest/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PlayerTest/ClericTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlayerTest/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PlayerTest/WarlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/HealingTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Items/HealingTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Spell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest/ClericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest/WarlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Items/Item.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Warrior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Warrior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WarlockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest/WarlockTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatureTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreatureTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CreatureTests/CreatureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="293">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#397#398#0" expanded="true" />
@@ -174,8 +127,22 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
+            <state relative-caret-position="46">
               <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Items/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -520,6 +487,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreatureTests/CreatureTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Creatures/Creature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game/Items/Item.java" />
       </list>
     </option>
   </component>
@@ -793,12 +761,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_FantasyGame_test - 2018.04.19 at 13h 32m 02s.xml">
-      <configuration name="All in FantasyGame_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_FantasyGame_test - 2018.04.19 at 13h 35m 07s.xml">
-      <configuration name="All in FantasyGame_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_FantasyGame_test - 2018.04.19 at 13h 37m 39s.xml">
       <configuration name="All in FantasyGame_test" configurationId="JUnit" />
     </history-entry>
@@ -823,6 +785,12 @@
     <history-entry file="All_in_FantasyGame_test - 2018.04.19 at 14h 01m 59s.xml">
       <configuration name="All in FantasyGame_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_FantasyGame_test - 2018.04.19 at 14h 07m 29s.xml">
+      <configuration name="All in FantasyGame_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyGame_test - 2018.04.19 at 14h 10m 49s.xml">
+      <configuration name="All in FantasyGame_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
@@ -836,7 +804,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="1" />
@@ -932,16 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Items/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,13 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Interfaces/IDamageable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1081,12 +1032,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreatureTests/CreatureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="293">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#397#398#0" expanded="true" />
             <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Items/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
           </folding>
         </state>
       </provider>

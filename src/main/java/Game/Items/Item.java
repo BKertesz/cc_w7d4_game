@@ -1,5 +1,6 @@
 package Game.Items;
 
+import Game.Interfaces.IDamageable;
 import Game.Players.Player;
 
 public abstract class Item {
@@ -12,8 +13,8 @@ public abstract class Item {
         this.impact = impact;
     }
 
-    public void execute(Player player){
-        player.changeHealth(impact);
+    public void execute(IDamageable target){
+        target.changeHealth(impact);
     }
 
     public String getName() {
