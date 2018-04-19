@@ -1,7 +1,7 @@
 package PlayerTest;
 
-import Items.Weapon;
-import Players.Barbarian;
+import Game.Items.Weapon;
+import Game.Players.Barbarian;
 import org.junit.Before;
 import org.junit.Test;
 

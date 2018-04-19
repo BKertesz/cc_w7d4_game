@@ -1,7 +1,7 @@
 package PlayerTest;
 
-import Items.HealingTool;
-import Players.Cleric;
+import Game.Items.HealingTool;
+import Game.Players.Cleric;
 import org.junit.Before;
 import org.junit.Test;
 

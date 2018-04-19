@@ -1,7 +1,7 @@
 package PlayerTest;
 
-import Items.Spell;
-import Players.Warlock;
+import Game.Items.Spell;
+import Game.Players.Warlock;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -31,5 +31,12 @@ public class WarlockTest {
         assertEquals("Simon", warlock.getSpell().getName());
     }
 
+    @Test
+    public void canDie(){
+        Spell spell2 = new Spell("Simon", -100);
+        warlock.changeSpell(spell2);
+        warlock.castSpell(warlock);
+        assertEquals(true, warlock.isDead());
+    }
 
 }
