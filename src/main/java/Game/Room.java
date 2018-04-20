@@ -16,6 +16,7 @@ public class Room {
     public Room(Player player, RoomType roomType) {
         this.player = player;
         this.roomType = roomType;
+        setup();
 
     }
 
@@ -70,6 +71,7 @@ public class Room {
                 break;
 
             case CREATURE:
+                this.encounter = new Creature();
 //                Gives a random creature back
                 break;
 
