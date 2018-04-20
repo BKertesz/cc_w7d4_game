@@ -1,8 +1,11 @@
 package Game.Creatures;
 
+import Game.Enums.CreatureLibrary;
 import Game.Interfaces.IDamageable;
 import Game.Interfaces.IEncounterable;
 import Game.Players.Player;
+
+import java.util.Random;
 
 public class Creature implements IDamageable,IEncounterable {
 
@@ -14,6 +17,14 @@ public class Creature implements IDamageable,IEncounterable {
         this.name = name;
         this.healthPoint = healthPoint;
         this.damage = damage;
+    }
+
+    public Creature (){
+        CreatureLibrary creatureSeed =  getRandomCreature();
+        this.name = creatureSeed.getName();
+        this.healthPoint = creatureSeed.getHealthPoint();
+        this.damage = creatureSeed.getDamage();
+
     }
 
     public int getDamage() {
@@ -52,5 +63,12 @@ public class Creature implements IDamageable,IEncounterable {
 
     public void run(){
         attack(this);
+    }
+
+    public static CreatureLibrary getRandomCreature(){
+        Random rand = new Random();
+        int enumNumber = rand.nextInt(2);
+        CreatureLibrary creatureType = CreatureLibrary.values()[enumNumber];
+        return creatureType;
     }
 }
