@@ -26,7 +26,7 @@ public class RoomTest {
 
     @Test
     public void canGetSwag() {
-        room.isFinished();
+        room = room.isFinished();
         assertEquals(50,barbarian.getSwagBagAmount());
     }
 }

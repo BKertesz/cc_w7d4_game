@@ -20,4 +20,8 @@ public abstract class Item {
     public String getName() {
         return name;
     }
+
+    public int getImpact() {
+        return impact;
+    }
 }

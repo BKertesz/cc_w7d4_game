@@ -15,7 +15,7 @@ public class Room {
     public Room(Player player, RoomType roomType) {
         this.player = player;
         this.roomType = roomType;
-        if(this.roomType.getType()== 2){
+        if(this.roomType== RoomType.CREATURE){
             creature = new Creature("Simon",50,-100);
         }
     }
@@ -36,18 +36,20 @@ public class Room {
             return RoomType.CREATURE;
     }
 
-    public void isFinished(){
+    public Room isFinished(){
+        Room newRoom;
         if(player.isDead()){
             System.out.println("Game Over!");
         }
         else if(roomType == RoomType.TREASURE){
             player.addSwag(50);
-            movePlayer();
+            return movePlayer();
         }
         else if(roomType== RoomType.CREATURE){
             if(creature.isDead()){
-                movePlayer();
+               return movePlayer();
             }
         }
+        return newRoom = new Room(player,RoomType.TREASURE);
     }
 }

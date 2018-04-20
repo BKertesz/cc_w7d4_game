@@ -4,7 +4,7 @@ import Game.Items.Weapon;
 
 public class Dwarf extends Warrior {
 
-    public Dwarf(int healthPoints, Weapon weapon) {
-        super(healthPoints, weapon);
+    public Dwarf(int healthPoints,int staminaPoints, Weapon weapon) {
+        super(healthPoints,staminaPoints, weapon);
     }
 }

@@ -6,8 +6,8 @@ public class Cleric extends Player {
 
     private HealingTool healingTool;
 
-    public Cleric(int healthPoints, HealingTool healingTool) {
-        super(healthPoints);
+    public Cleric(int healthPoints,int staminaPoints, HealingTool healingTool) {
+        super(healthPoints, staminaPoints);
         this.healingTool = healingTool;
     }
 

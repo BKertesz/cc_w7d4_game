@@ -6,8 +6,8 @@ public abstract class Magician extends Player{
 
     private Spell spell;
 
-    public Magician(int healthPoint, Spell spell) {
-        super(healthPoint);
+    public Magician(int healthPoint,int staminaPoints, Spell spell) {
+        super(healthPoint,staminaPoints);
         this.spell = spell;
     }
 

@@ -6,8 +6,8 @@ public abstract class Warrior extends Player {
 
     private Weapon weapon;
 
-    public Warrior(int healthPoints, Weapon weapon) {
-        super(healthPoints);
+    public Warrior(int healthPoints,int staminaPoints, Weapon weapon) {
+        super(healthPoints, staminaPoints);
         this.weapon = weapon;
     }
 

@@ -6,9 +6,11 @@ public abstract class Player implements IDamageable {
 
     private int healthPoints;
     private int swagBag;
+    private int staminaPoints;
 
-    public Player(int healthPoints) {
+    public Player(int healthPoints,int staminaPoints) {
         this.healthPoints = healthPoints;
+        this.staminaPoints = staminaPoints;
         this.swagBag = 0;
     }
 
@@ -16,8 +18,13 @@ public abstract class Player implements IDamageable {
         return healthPoints;
     }
 
+
+    public int getStaminaPoints() {
+        return staminaPoints;
+    }
+
     public boolean isDead(){
-        if(healthPoints<=0){
+        if(healthPoints<=0 || staminaPoints <= 0){
             return true;
         }
         else{
@@ -28,6 +35,8 @@ public abstract class Player implements IDamageable {
     public void changeHealth(int amount){
         healthPoints += amount;
     }
+
+    public void changeStamina(int amount) { staminaPoints += amount;}
 
     public void addSwag(int amount){
         this.swagBag += amount;
