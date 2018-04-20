@@ -19,7 +19,7 @@ public class RoomTest {
     @Before
     public void setUp() throws Exception {
         weapon = new Weapon("Sword",-10);
-        barbarian = new Barbarian(50,weapon);
+        barbarian = new Barbarian(50,20,weapon);
 //        simon = new Creature("Simon",50,-10);
         room = new Room(barbarian,RoomType.TREASURE);
     }

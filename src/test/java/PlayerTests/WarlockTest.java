@@ -1,4 +1,4 @@
-package PlayerTest;
+package PlayerTests;
 
 import Game.Items.Spell;
 import Game.Players.Warlock;
@@ -15,7 +15,7 @@ public class WarlockTest {
     @Before
     public void before(){
         spell = new Spell("Fireball", -15);
-        warlock = new Warlock(30, spell);
+        warlock = new Warlock(30,10, spell);
     }
 
     @Test

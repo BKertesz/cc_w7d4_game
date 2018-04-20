@@ -1,4 +1,4 @@
-package PlayerTest;
+package PlayerTests;
 
 import Game.Items.HealingTool;
 import Game.Players.Cleric;
@@ -17,7 +17,7 @@ public class ClericTest {
     public void before(){
         healingTool1 = new HealingTool("bandaid", 5);
         healingTool2 = new HealingTool("potion", 10);
-        cleric = new Cleric(50, healingTool1);
+        cleric = new Cleric(50,20, healingTool1);
 
     }
 

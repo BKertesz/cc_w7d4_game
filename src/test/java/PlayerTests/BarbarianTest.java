@@ -1,4 +1,4 @@
-package PlayerTest;
+package PlayerTests;
 
 import Game.Items.Weapon;
 import Game.Players.Barbarian;
@@ -15,7 +15,7 @@ public class BarbarianTest {
     @Before
     public void before(){
         weapon = new Weapon("Hammer", -10);
-        barbarian1 = new Barbarian(30, weapon);
+        barbarian1 = new Barbarian(30,20, weapon);
     }
 
     @Test

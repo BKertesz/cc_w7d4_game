@@ -1,8 +1,10 @@
 package Game.Creatures;
 
 import Game.Interfaces.IDamageable;
+import Game.Interfaces.IEncounterable;
+import Game.Players.Player;
 
-public class Creature implements IDamageable {
+public class Creature implements IDamageable,IEncounterable {
 
     private String name;
     private int healthPoint;
@@ -42,5 +44,13 @@ public class Creature implements IDamageable {
 
     public void attack(IDamageable target){
         target.changeHealth(damage);
+    }
+
+    public void encounter(Player player){
+        attack(player);
+    }
+
+    public void run(){
+        attack(this);
     }
 }

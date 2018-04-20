@@ -3,7 +3,7 @@ package Game.Items;
 import Game.Interfaces.IDamageable;
 import Game.Players.Player;
 
-public abstract class Item {
+public abstract class Item{
 
     private String name;
     private int impact;
