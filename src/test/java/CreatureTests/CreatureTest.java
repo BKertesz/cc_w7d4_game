@@ -15,7 +15,7 @@ public class CreatureTest {
     @Before
     public void before(){
         creature1 = new Creature("Ogre", 25, -10);
-        creature2 = new Creature();
+        creature2 = new Creature("Simon",40,10);
     }
 
     @Test
@@ -41,8 +41,8 @@ public class CreatureTest {
         assertEquals(30, creature2.getHealthPoint());
     }
 
-    @Test
-    public void testNewCreatureGenerator() {
-        System.out.println(creature2.getName());
-    }
+//    @Test
+//    public void testNewCreatureGenerator() {
+//        System.out.println(creature2.getName());
+//    }
 }

@@ -1,6 +1,7 @@
 package Game.Creatures;
 
 import Game.Enums.CreatureLibrary;
+import Game.Game;
 import Game.Interfaces.IDamageable;
 import Game.Interfaces.IEncounterable;
 import Game.Players.Player;
@@ -57,17 +58,10 @@ public class Creature implements IDamageable,IEncounterable {
         target.changeHealth(damage);
     }
 
-    public void encounter(Player player){
-        attack(player);
-    }
-
-    public void run(){
-        attack(this);
-    }
 
     public static CreatureLibrary getRandomCreature(){
         Random rand = new Random();
-        int enumNumber = rand.nextInt(2);
+        int enumNumber = rand.nextInt(Game.randomNumber);
         CreatureLibrary creatureType = CreatureLibrary.values()[enumNumber];
         return creatureType;
     }

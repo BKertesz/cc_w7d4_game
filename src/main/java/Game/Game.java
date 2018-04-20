@@ -4,6 +4,8 @@ import Game.Players.Player;
 
 public class Game {
 
+    public static int randomNumber = 4;
+
     private Room activeRoom;
     private Player player;
 

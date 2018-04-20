@@ -2,6 +2,8 @@ package Game;
 
 import Game.Creatures.Creature;
 import Game.Interfaces.IEncounterable;
+import Game.Items.Item;
+import Game.Items.Treasure;
 import Game.Players.Player;
 
 import java.util.ArrayList;
@@ -17,8 +19,14 @@ public class Room {
         this.player = player;
         this.roomType = roomType;
         setup();
-
     }
+
+    public Room(Player player){
+        this.player = player;
+        this.roomType = createRandomRoomType();
+        setup();
+    }
+
 
     public Player getPlayer() {
         return player;
@@ -40,7 +48,7 @@ public class Room {
 
     private RoomType createRandomRoomType(){
         Random random = new Random();
-        int value = random.nextInt(2);
+        int value = random.nextInt(3);
         if(value == 0){
             return RoomType.TREASURE;
         }
@@ -67,6 +75,7 @@ public class Room {
     public void setup(){
         switch (roomType){
             case ITEM:
+                this.encounter = new Item();
 //                Gives a random item to the room
                 break;
 
@@ -76,6 +85,7 @@ public class Room {
                 break;
 
             case TREASURE:
+                this.encounter = new Treasure();
 //                Gives back a random treasure
 
         }

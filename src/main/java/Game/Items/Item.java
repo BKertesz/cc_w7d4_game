@@ -1,12 +1,14 @@
 package Game.Items;
 
 import Game.Enums.ItemLibrary;
+import Game.Game;
 import Game.Interfaces.IDamageable;
+import Game.Interfaces.IEncounterable;
 import Game.Players.Player;
 
 import java.util.Random;
 
-public abstract class Item{
+public class Item implements IEncounterable {
 
     private String name;
     private int impact;
@@ -39,8 +41,16 @@ public abstract class Item{
 
     public ItemLibrary getRandomItem(){
         Random rand = new Random();
-        int enumNumber = rand.nextInt(2);
+        int enumNumber = rand.nextInt(Game.randomNumber);
         ItemLibrary item = ItemLibrary.values()[enumNumber];
         return item;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setImpact(int impact) {
+        this.impact = impact;
     }
 }
