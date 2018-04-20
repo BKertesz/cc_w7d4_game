@@ -34,4 +34,10 @@ public class ClericTest {
         cleric.changeHealingTool(healingTool2);
         assertEquals("potion", cleric.getHealingTool().getName());
     }
+
+    @Test
+    public void canChangeStamina() {
+        cleric.changeStamina(10);
+        assertEquals(30,cleric.getStaminaPoints());
+    }
 }
